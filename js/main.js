@@ -47,10 +47,10 @@ let arr = [];
       }
     }
     //5.
-    let lastEvenNumber = -1
+    let soChanCuoi = -1
     for (let i = arr.length-1; i >= 0; i--) {
       if(arr[i] % 2 === 0){
-        lastEvenNumber = arr[i];
+        soChanCuoi = arr[i];
         break;
       }
       
@@ -96,7 +96,7 @@ let arr = [];
       <br>
       4. Số dương nhỏ nhất : ${duongNN}
       <br>
-      5. Số chăn cuối cùng : ${lastEvenNumber}
+      5. Số chăn cuối cùng : ${soChanCuoi}
       <br>
       6.
       <br>
